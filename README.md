@@ -1,65 +1,102 @@
 # spiffxp
 
-Hi, I’m Aaron Crickenberger (aka Aaron of SIG Beard).  I work on [Kubernetes], and am mainly interested in things that improve contributors’ lives.  My current employer is [Google]
+Hi, I'm Aaron Crickenberger (aka Aaron of SIG Beard).  I work on [Kubernetes],
+and am mainly interested in things that improve contributors' lives. My
+current employer is [Google]
 
-My Myers-Briggs is [INFP] last time I checked, so I empathize a lot and like 1:1 conversation, but dealing with people for too long will wear me out.  I bias toward action, preferring to solve today’s instance of the problem before solving tomorrow’s class of the problem.  That said, for those larger problems, I aim for public, documented decisions, driven and validated by data rather than gut feel.
+My Myers-Briggs is [INFP] last time I checked. I empathize a lot and prefer
+1:1 conversation. Peopling for too long will wear me out.  I bias toward
+action, preferring to solve today's instance of the problem before solving
+tomorrow's class of the problem.  For larger problems I value public,
+documented decisions, driven and validated by data rather than gut feel.
+
+Favorite foods: popcorn feeds my soul. I have been told this isn't a meal, and
+refuse to believe it. Burgers and sushi are also acceptable.
 
 ## Contact
 
-I am primarily available as @spiffxp on [kubernetes.slack.com]. It is the only thing that notifies me, and I mute notifications off-hours. I am usually in the Pacific timezone.  Refer to [Current Status](#current-status) for who to contact if I'm not available.
+The best way to reach me is @spiffxp on [kubernetes.slack.com]. It is the only
+thing that notifies me, though I mute all notifcations off-hours (I'm usuallly
+in the Pacific timezone). See [Current Status](#current-status) for who to
+contact if I'm not available
 
 Everything else is best-effort, poll-only, including:
-- (Google-only) Aaron Crickenberger on chat.google.com
+- (Google-only) spiffxp@ on chat.google.com
 - spiffxp@google.com
 - spiffxp@gmail.com
 - [@spiffxp on twitter](https://twitter.com/spiffxp)
 - [@spiffxp on github](https://github.com/spiffxp) (notifications are useless)
 
-I take _forever_ to write things.  I’m far more comfortable chatting things over, either in slack, or via whatever video-conference works for you (I like Zoom, Slack, and Google Hangouts)
+I take _forever_ to write things.  I'm far more comfortable talking things over,
+either in slack, or via whatever video-conference works for you (I like Zoom,
+Slack, and Google Hangouts)
 
 ## Current Status
 
-I’m leading the [Kubernetes v1.14 Release][k8s114-readme].  My goal is to improve kubernetes quality through test health and explicit criteria for alpha/beta/stable. This will occupy the bulk of my time for Q1 2019. If I'm unavailable, please contact the [Release Lead Shadows][k8s114-team]
+I am an Organizer for [K8s Infra Working Group][kubernetes-wg-k8s-infra]. We
+are setting up the public, community-owned home for all Kubernetes project
+infrastructure. If I'm unavailable, please contact [@dims]
 
-I’m an active participant in the [Conformance Defintion subproject of SIG Architecture][conformance-definition].  My focus is improving Kubernetes conformance test coverage, via coordination with the maintainers of [cncf/apisnoop] to measure/visualize it, and contractors to write additional conformance tests. If I'm unavailable, please contact the [cncf-k8s-conformance mailing list][cncf-k8s-conformance@]
+I am an active participant in the [Kubernetes Conformance subproject][conformance-definition].
+I am focused on improving conformance test coverage. I'm doing this via test
+authorship, PR review, tooling to lint conformance tests, and tooling to
+measure coverage.  I coordinate with members of the [cncf/apisnoop] team.
+If I'm unavailable, please contact [@timothysc]
 
-I’m on my second term as a [Kubernetes Steering Committee][kubernetes/steering] member, and am trying to set priorities for the year. If I'm unavailable, please contact another member.
+I'm a subproject owner for the [Kubernetes GitHub Admin Team][github-management].
+I am focused on ensuring the team is operating in a sustainable manner.
+
+I'm on my second term as a [Kubernetes Steering Committee][kubernetes/steering]
+member. I am focused on empowering the community and reducing areas where the
+committee is a bottleneck. If I'm unavailable please contact another member
 
 ## My Average Week
 
 I actively participate in the following Kubernetes-related groups:
-- [cncf-k8s-conformance]
+
 - [kubernetes-community]
 - [kubernetes-sig-architecture]
-- [kubernetes-sig-contributor-experience] (subproject owner)
-- [kubernetes-sig-release]
-- [kubernetes-sig-testing] (chair)
-- [kubernetes/steering]
+- [kubernetes-sig-contributor-experience] (as subproject owner: devstats, github-management)
+- [kubernetes-sig-release] (as subproject owner: release-team)
+- [kubernetes-sig-testing] (as chair)
+- [kubernetes-wg-k8s-infra] (as organizer)
+- [kubernetes/steering] (as member)
 
-This means I show up to their weekly meetings, I’m in their slack channels, I read their mailing lists (though am generally quiet), I create/triage issues, and I author/review PR’s.
+This means I show up to their weekly meetings, I'm in their slack channels,
+I read their mailing lists (though am generally quiet), I create/triage
+issues, and I author/review PR's.
+
+I use the [Gubernator PR Dashboard][pr-dashboard] to keep track of PRs that
+need my review. They pile up pretty quickly and my time is limited, so I am
+unable to get to all of them nor am I able to respond as quickly as I would
+like. I aim for a weekly thorough sweep.
 
 ## Speaking Experience
 
-TODO.  I made a [YouTube playlist][spiffxp-kubecon-2018-playlist].  I usually recycle my [steering committee election bio](https://github.com/kubernetes/community/blob/master/events/elections/2018/aaroncrickenberger.md) for a speaker bio
+I have a [YouTube playlist][spiffxp-kubecon-playlist] of my talks.  I usually
+recycle my [steering committee election bio][steering-bio] for a speaker bio
 
 [INFP]: https://www.16personalities.com/infp-personality
-[spiffxp-kubecon-2018-playlist]: https://www.youtube.com/playlist?list=PL_4oVLpdke3Ny1wmlfFF0N8n9sC-clhBG
+[spiffxp-kubecon-playlist]: https://www.youtube.com/playlist?list=PL_4oVLpdke3Ny1wmlfFF0N8n9sC-clhBG
+[steering-bio]: https://github.com/kubernetes/community/blob/master/events/elections/2018/aaroncrickenberger.md
 
 [Google]: https://github.com/google
 [Kubernetes]: https://github.com/kubernetes
 
-[kubernetes.slack.com]: https://kubernetes.slack.com
+[cncf/apisnoop]: https://github.com/cncf/apisnoop
+[conformance-definition]: https://github.com/kubernetes/community/tree/master/sig-architecture#conformance-definition
+[github-management]: https://github.com/kubernetes/community/tree/master/github-management
 [kubernetes-community]: https://github.com/kubernetes/community/tree/master/communication#weekly-meeting
 [kubernetes-sig-architecture]: https://github.com/kubernetes/community/tree/master/sig-architecture
 [kubernetes-sig-contributor-experience]: https://github.com/kubernetes/community/tree/master/sig-contributor-experience
 [kubernetes-sig-release]: https://github.com/kubernetes/community/tree/master/sig-release
 [kubernetes-sig-testing]: https://github.com/kubernetes/community/tree/master/sig-testing
-[cncf-k8s-conformance]: https://github.com/cncf/k8s-conformance/blob/master/README-WG.md
-[cncf-k8s-conformance@]: https://lists.cncf.io/mailman/listinfo/cncf-k8s-conformance
-[cncf/apisnoop]: https://github.com/cncf/apisnoop
+[kubernetes-wg-k8s-infra]: https://github.com/kubernetes/community/tree/master/wg-k8s-infra
 [kubernetes/steering]: https://github.com/kubernetes/steering
-[steering@kubernetes.io]: mailto:steering@kubernetes.io
-[conformance-definition]: https://github.com/kubernetes/community/tree/master/sig-architecture#conformance-definition
 
-[k8s114-readme]: https://github.com/kubernetes/sig-release/tree/master/releases/release-1.14
-[k8s114-team]: https://github.com/kubernetes/sig-release/blob/master/releases/release-1.14/release_team.md
+[pr-dashboard]: https://gubernator.k8s.io/pr
+
+[@dims]: https://github.com/dims
+[@timothysc]: https://github.com/timothysc
+[kubernetes.slack.com]: https://kubernetes.slack.com
+[steering@kubernetes.io]: mailto:steering@kubernetes.io
